@@ -1,0 +1,41 @@
+create table marga_store(
+Product_id int primary key auto_increment,
+Product_name varchar (50) not  null,
+Quantity int not null,
+Price decimal (10,2) not null,
+Expiration_date date not null,
+Unit varchar (50) not null
+);
+
+insert into marga_store (
+Product_name,
+Quantity,
+ Price, 
+ Expiration_date,
+ Unit 
+ )values
+	("Sardines", "10", "20.00", "2024-01-0", "PCS"),
+    ("Bear brand", "8","19.00", "2024-01-04", "PCS"),
+    ("Nova", "10", "25.00", "2024-01-03", "PCS"),
+    ("Colgate", "9"," 12.00", "2024-01-02", "PCS"),
+    ("Century Tuna", "10", "24.00", "2024-01-01", "PCS"),
+    ("Instant Noodles", "5","15.00", "2024-01-01", "PCS"),
+    ("Choco Mucho", "10", "8.00", "2024-01-02", "PCS"),
+    ("Oreo", "10", "10.00", "2024-01-03", "PCS"),
+    ("Ice cream", "10","120.00", "2024-02-04", "PCS"),
+    ("Rice", "22", "50.00", "2024-02-05", "SACS"),
+    ("Cooking oil", "20","30.00", "2024-02-06", "PCS"),
+    ("Sugar", "10", "25.00", "2024-02-07", "KG"),
+    ("Salt", "10", "20.00", "2024-03-08", "PCS"),
+    ("Soy Sauce", "10","8.00", "2024-03-09", "PCS"),
+    ("Vinegar", "11","8.00", "2024-03-10", "PCS"),
+    ("Coffee", "50","20.00", "2024-03-11", "PCS"),
+    ("Laundry soap", "20", "24.00", "2024-03-12", "PCS"),
+    ("Soft Drinks", "20","23.00", "2024-03-13", "DOZEN"),
+    ("Eggs", "200", "25.00", "2024-04-14", "PCS"),
+    ("Max", "50", "2.00", "2024-04-15", "PCS"),
+    ("Sisters napkin", "20","10.00", "2024-04-16", "PCS"),
+    ("Sotanghon", "30", "15.00", "2024-04-17", "PCS"),
+    ("Ajinomoto", "21", "15.00", "2024-04-18", "PCS"),
+    ("Knorr cubes", "22", "10.00", "2024-04-19", "PCS"),
+    ("Sunsilk","22","18.00", "2024-04-20", "PCS")
